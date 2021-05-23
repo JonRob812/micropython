@@ -36,7 +36,7 @@ include $(TOP)/py/py.mk
 GIT_SUBMODULES = lib/axtls lib/berkeley-db-1.xx
 
 FWBIN = $(BUILD)/firmware-combined.bin
-PORT ?= /dev/ttyACM0
+PORT ?= /dev/ttyS6
 BAUD ?= 115200
 FLASH_MODE ?= qio
 FLASH_SIZE ?= detect
